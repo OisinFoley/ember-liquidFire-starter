@@ -1,0 +1,15 @@
+{{#each model as |player|}}
+
+<label class="btn btn-danger">	{{player.name}} </label> <br> 
+<label class="{{label-maker player}}"> {{player.club}}	</label> <br> 
+
+<br> <br> 
+{{/each}}
+
+<label class="{{label-maker}}"> chicken burgers	</label> <br> <br>
+
+{{alert-maker}} <br><br>
+
+{{link-to 'cccccc' 'about' }} 
+
+{{outlet}}
